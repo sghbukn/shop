@@ -1,0 +1,94 @@
+html,body,div h1,h4,h5,h6,p,font,img,strong,center,ul,li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 800px;
+    height: 360px;
+    background: url(img/head-bg.jpg);
+    position: relative;
+}
+
+#main h1 {
+    color:#636363; 
+    text-align:center; 
+    margin-top: 30px;
+}
+
+#main h5 {
+    color:#C4C4C4; 
+    text-align:center;
+    word-spacing: 5px;
+}
+
+#main h4 {
+    line-height: 3em;
+    color: #636363;
+}
+
+#main h6 {
+    line-height: 3em;
+    color: #ccc;
+}
+
+.share {
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.product {
+    width: 800px;
+}
+
+.buy {
+    float: left;
+    width: 211px;
+    height: 275px;
+    margin: 10px 27px;
+    text-align: center;
+}
+
+button {
+    background: #ACC700;
+    border: 0;
+    color: #fff;
+    width: 120px;
+    height: 36px;
+}
+
+#main ul li {
+    float: left;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+#main ul li .item {
+    border: 1px solid #ccc;
+}
+
+span {
+    color: #ACC700;
+}
